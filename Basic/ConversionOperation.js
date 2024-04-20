@@ -19,6 +19,18 @@ console.log(booleanisLoggedIn);
 //""=>false
 //"suraj"=>true
 
-let somenum=33
-let stringnmu= String(somenum)
-console.log( typeof stringnmu);
+// let somenum=33
+// let stringnmu= String(somenum)
+// console.log( typeof stringnmu);
+
+//*********************************Operations **********************************/
+
+let value=3
+let negvalue= -value
+console.log(negvalue);
+
+let str1= "suraj"
+let str2= " fortnight"
+let str3= str1 - str2 // it gives NaN output, but if we + them it will simply add them as a string
+console.log(str3);
+
